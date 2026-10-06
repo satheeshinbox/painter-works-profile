@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chandiran Works | Professional Painter & Handyman Johor Bahru | +60 0179052183</title>
+  <meta name="description" content="Domestic professional painting, plumbing, electrical works, small renovations, wall & cupboard fixes, and tiling services in Johor. Contact Chandiran Manickam +60 0179052183 for WhatsApp appointment booking.">
+  <meta name="keywords" content="painter johor, tukang cat johor bahru, handyman skudai, plumbing johor, electrical wiring, tiling works johor, chandiran manickam">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- LocalBusiness Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Chandiran Painter & Handyman Services Johor",
+    "image": "assets/images/hero.png",
+    "telephone": "+600179052183",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Johor Bahru",
+      "addressRegion": "Johor",
+      "addressCountry": "MY"
+    },
+    "description": "Professional house painting, plumbing, electrical repair, small renovation, wall drilling & cupboard fixes, and tiling services in Johor.",
+    "founder": {
+      "@type": "Person",
+      "name": "Chandiran Manickam"
+    },
+    "areaServed": ["Johor Bahru", "Skudai", "Iskandar Puteri", "Mount Austin", "Pasir Gudang", "Kulai", "Senai", "Batu Pahat"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Floating Sticky WhatsApp Action Button -->
+  <a href="https://wa.me/60179052183?text=Hello%20Chandiran,%20I%20would%20like%20to%20book%20an%20appointment%20for%20handyman/painting%20services%20in%20Johor." 
+     target="_blank" 
+     class="floating-whatsapp" 
+     id="btnFloatingWhatsapp" 
+     aria-label="Book WhatsApp Appointment">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Header Navigation Bar -->
+  <header class="navbar" id="mainHeader">
+    <div class="nav-container">
+      <a href="#home" class="brand-logo" id="brandLogo">
+        <div class="brand-icon">
+          <i class="fas fa-paint-roller"></i>
+        </div>
+        <div class="brand-text">
+          <h1 data-i18n="nav.brand">Chandiran Works</h1>
+          <p data-i18n="nav.tagline">Johor Painter & Handyman</p>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active" data-i18n="nav.home" id="navHome">Home</a>
+        <a href="#services" class="nav-link" data-i18n="nav.services" id="navServices">Services</a>
+        <a href="#calculator" class="nav-link" data-i18n="nav.calculator" id="navCalculator">Instant Quote</a>
+        <a href="#showcase" class="nav-link" data-i18n="nav.showcase" id="navShowcase">Work Showcase</a>
+        <a href="#why-us" class="nav-link" data-i18n="nav.whyUs" id="navWhyUs">Why Choose Us</a>
+        <a href="#reviews" class="nav-link" data-i18n="nav.reviews" id="navReviews">Testimonials</a>
+        <a href="#faq" class="nav-link" data-i18n="nav.faq" id="navFaq">FAQ</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact" id="navContact">Contact</a>
+      </nav>
+
+      <!-- Language Selector Switcher & WhatsApp CTA -->
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <div class="lang-switcher" id="langSwitcher">
+          <button class="lang-btn active" data-lang="en" id="btnLangEN">EN</button>
+          <button class="lang-btn" data-lang="ms" id="btnLangMS">BM</button>
+          <button class="lang-btn" data-lang="ta" id="btnLangTA">தமிழ்</button>
+        </div>
+
+        <a href="https://wa.me/60179052183?text=Hello%20Chandiran,%20I%20would%20like%20to%20book%20an%20appointment%20for%20handyman/painting%20services%20in%20Johor." 
+           target="_blank" 
+           class="btn-nav-whatsapp" 
+           id="btnNavWhatsapp">
+          <i class="fab fa-whatsapp"></i>
+          <span data-i18n="nav.bookWhatsapp">WhatsApp Booking</span>
+        </a>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge" id="heroBadge" data-i18n="hero.badge">
+          ⭐ Top Rated Domestic Services in Johor
+        </div>
+        <h1 class="hero-title" data-i18n="hero.title" id="heroTitle">
+          Professional House Painting & Reliable Handyman Services in Johor
+        </h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle" id="heroSubtitle">
+          Expert interior & exterior painting, plumbing, electrical repairs, tiling, and home fixes by Chandiran Manickam. Quality craftsmanship, transparent pricing, and instant WhatsApp booking.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#calculator" class="btn-primary" id="btnHeroQuote">
+            <i class="fas fa-calculator"></i>
+            <span data-i18n="hero.ctaQuote">Calculate Instant Quote</span>
+          </a>
+          <a href="https://wa.me/60179052183?text=Hello%20Chandiran,%20I%20want%20to%20book%20an%20appointment." 
+             target="_blank" 
+             class="btn-whatsapp-hero" 
+             id="btnHeroWhatsapp">
+            <i class="fab fa-whatsapp"></i>
+            <span data-i18n="hero.ctaWhatsapp">WhatsApp Appointment (+60 0179052183)</span>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3 data-i18n="hero.stat1Number">10+</h3>
+            <p data-i18n="hero.stat1Text">Years Experience</p>
+          </div>
+          <div class="stat-item">
+            <h3 data-i18n="hero.stat2Number">850+</h3>
+            <p data-i18n="hero.stat2Text">Johor Homes Served</p>
+          </div>
+          <div class="stat-item">
+            <h3 data-i18n="hero.stat3Number">100%</h3>
+            <p data-i18n="hero.stat3Text">Satisfaction Guarantee</p>
+          </div>
+          <div class="stat-item">
+            <h3 data-i18n="hero.stat4Number">4.9 ★</h3>
+            <p data-i18n="hero.stat4Text">Customer Rating</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="hero-image-card">
+          <img src="assets/images/hero.png" alt="Chandiran Professional House Painting Johor" id="imgHero">
+        </div>
+        <div class="hero-floating-badge">
+          <div class="floating-avatar">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <div class="floating-info">
+            <h4>Chandiran Manickam</h4>
+            <p>+60 0179052183 (WhatsApp Booking)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="services.title" id="servicesTitle">Our Professional Services</h2>
+      <p class="section-subtitle" data-i18n="services.subtitle" id="servicesSubtitle">
+        Comprehensive domestic solutions tailored for homes and offices across Johor Bahru & surrounding areas.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <!-- 1. House Painting -->
+      <article class="service-card" id="cardPainting">
+        <div class="service-img-container">
+          <img src="assets/images/painting.png" alt="House Painting Johor">
+          <span class="service-price-tag" data-i18n="services.painting.unitPrice">From RM 350 / room</span>
+        </div>
+        <div class="service-body">
+          <h3 class="service-title" data-i18n="services.painting.title">House Painting Services</h3>
+          <p class="service-desc" data-i18n="services.painting.desc">
+            High-grade interior and exterior painting, feature wall coatings, epoxy floor painting, and weather-resistant protective coatings.
+          </p>
+          <ul class="service-list">
+            <li data-i18n="services.painting.items.0">Interior Wall & Ceiling Painting</li>
+            <li data-i18n="services.painting.items.1">Exterior Weather Shield Coating</li>
+            <li data-i18n="services.painting.items.2">Feature & Accent Walls</li>
+            <li data-i18n="services.painting.items.3">Epoxy Flooring & Touch-ups</li>
+          </ul>
+          <button class="service-btn btn-quick-quote" data-service-target="painting" id="btnQuotePainting">Get Instant Quote</button>
+        </div>
+      </article>
+
+      <!-- 2. Plumbing -->
+      <article class="service-card" id="cardPlumbing">
+        <div class="service-img-container">
+          <img src="assets/images/plumbing.png" alt="Plumbing Services Johor">
+          <span class="service-price-tag" data-i18n="services.plumbing.unitPrice">From RM 80 / job</span>
+        </div>
+        <div class="service-body">
+          <h3 class="service-title" data-i18n="services.plumbing.title">Plumbing Services</h3>
+          <p class="service-desc" data-i18n="services.plumbing.desc">
+            Fast emergency repairs and installations for all household plumbing fixtures, leakages, and water supply issues.
+          </p>
+          <ul class="service-list">
+            <li data-i18n="services.plumbing.items.0">Pipe Leak Detection & Repair</li>
+            <li data-i18n="services.plumbing.items.1">Tap, Sink & Toilet Installation</li>
+            <li data-i18n="services.plumbing.items.2">Water Heater Fittings & Hose Fixes</li>
+            <li data-i18n="services.plumbing.items.3">Clog Removal & Drainage Clear</li>
+          </ul>
+          <button class="service-btn btn-quick-quote" data-service-target="plumbing" id="btnQuotePlumbing">Get Instant Quote</button>
+        </div>
+      </article>
+
+      <!-- 3. Electrical Works -->
+      <article class="service-card" id="cardElectrical">
+        <div class="service-img-container">
+          <img src="assets/images/electrical.png" alt="Electrical Works Johor">
+          <span class="service-price-tag" data-i18n="services.electrical.unitPrice">From RM 60 / fitting</span>
+        </div>
+        <div class="service-body">
+          <h3 class="service-title" data-i18n="services.electrical.title">Electrical Works</h3>
+          <p class="service-desc" data-i18n="services.electrical.desc">
+            Safe and certified electrical installations, lighting fittings, ceiling fan setups, and power socket replacements.
+          </p>
+          <ul class="service-list">
+            <li data-i18n="services.electrical.items.0">LED Lighting & Chandelier Fitting</li>
+            <li data-i18n="services.electrical.items.1">Ceiling & Wall Fan Installation</li>
+            <li data-i18n="services.electrical.items.2">Power Socket & Switch Repair</li>
+            <li data-i18n="services.electrical.items.3">DB Box Maintenance & Troubleshooting</li>
+          </ul>
+          <button class="service-btn btn-quick-quote" data-service-target="electrical" id="btnQuoteElectrical">Get Instant Quote</button>
+        </div>
+      </article>
+
+      <!-- 4. Small Renovation Works -->
+      <article class="service-card" id="cardRenovation">
+        <div class="service-img-container">
+          <img src="assets/images/renovation.png" alt="Small Renovation Johor">
+          <span class="service-price-tag" data-i18n="services.renovation.unitPrice">From RM 450 / project</span>
+        </div>
+        <div class="service-body">
+          <h3 class="service-title" data-i18n="services.renovation.title">Small Renovation Works</h3>
+          <p class="service-desc" data-i18n="services.renovation.desc">
+            Transform your home with plaster ceilings, drywall partition installation, waterproofing, and space upgrades.
+          </p>
+          <ul class="service-list">
+            <li data-i18n="services.renovation.items.0">Plaster Ceiling & Cornice Fixes</li>
+            <li data-i18n="services.renovation.items.1">Drywall Partition Walls</li>
+            <li data-i18n="services.renovation.items.2">Bathroom Waterproofing</li>
+            <li data-i18n="services.renovation.items.3">Kitchen & Cabinet Minor Upgrades</li>
+          </ul>
+          <button class="service-btn btn-quick-quote" data-service-target="renovation" id="btnQuoteRenovation">Get Instant Quote</button>
+        </div>
+      </article>
+
+      <!-- 5. Wall, Sink, Cupboard Fixes & Drilling -->
+      <article class="service-card" id="cardHandyman">
+        <div class="service-img-container">
+          <img src="assets/images/handyman.png" alt="Wall Drilling and Cupboard Fixes Johor">
+          <span class="service-price-tag" data-i18n="services.handyman.unitPrice">From RM 50 / visit</span>
+        </div>
+        <div class="service-body">
+          <h3 class="service-title" data-i18n="services.handyman.title">Wall, Sink, Cupboard & Drilling</h3>
+          <p class="service-desc" data-i18n="services.handyman.desc">
+            Precision wall mounting, cabinet hinge adjustments, TV bracket mounting, sink fixes, and general household repairs.
+          </p>
+          <ul class="service-list">
+            <li data-i18n="services.handyman.items.0">TV Mount & Shelf Wall Drilling</li>
+            <li data-i18n="services.handyman.items.1">Cupboard Door & Hinge Realignment</li>
+            <li data-i18n="services.handyman.items.2">Sink & Countertop Patch Fixes</li>
+            <li data-i18n="services.handyman.items.3">Wall Hole Patching & Touch-ups</li>
+          </ul>
+          <button class="service-btn btn-quick-quote" data-service-target="handyman" id="btnQuoteHandyman">Get Instant Quote</button>
+        </div>
+      </article>
+
+      <!-- 6. Tiling Works -->
+      <article class="service-card" id="cardTiling">
+        <div class="service-img-container">
+          <img src="assets/images/tiling.png" alt="Tiling Works Johor">
+          <span class="service-price-tag" data-i18n="services.tiling.unitPrice">From RM 12 / sq.ft</span>
+        </div>
+        <div class="service-body">
+          <h3 class="service-title" data-i18n="services.tiling.title">Tiling Works</h3>
+          <p class="service-desc" data-i18n="services.tiling.desc">
+            Expert tile installation for living rooms, kitchens, and bathrooms. Tile replacement, crack repairs, and re-grouting.
+          </p>
+          <ul class="service-list">
+            <li data-i18n="services.tiling.items.0">Floor & Wall Ceramic/Porcelain Tiling</li>
+            <li data-i18n="services.tiling.items.1">Tile Crack & Hump Replacement</li>
+            <li data-i18n="services.tiling.items.2">Bathroom Waterproof Grouting</li>
+            <li data-i18n="services.tiling.items.3">Kitchen Backsplash Tiling</li>
+          </ul>
+          <button class="service-btn btn-quick-quote" data-service-target="tiling" id="btnQuoteTiling">Get Instant Quote</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Interactive Quote Calculator Section -->
+  <section class="section quote-section" id="calculator">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="quote.title" id="quoteTitle">Interactive Instant Quote Calculator</h2>
+      <p class="section-subtitle" data-i18n="quote.subtitle" id="quoteSubtitle">
+        Select your desired service, customize options, and get an immediate estimated cost breakdown in MYR.
+      </p>
+    </div>
+
+    <div class="calculator-wrapper">
+      <div class="calc-grid">
+        <!-- Input Configuration Panel -->
+        <div class="calc-inputs">
+          <div class="form-group">
+            <label class="form-label" data-i18n="quote.step1">1. Select Service Category</label>
+            <div class="service-select-grid" id="serviceOptionGrid">
+              <div class="service-option-card active" data-service="painting" id="optPainting">
+                <i class="fas fa-paint-roller"></i>
+                <span data-i18n="services.painting.title">House Painting</span>
+              </div>
+              <div class="service-option-card" data-service="plumbing" id="optPlumbing">
+                <i class="fas fa-wrench"></i>
+                <span data-i18n="services.plumbing.title">Plumbing</span>
+              </div>
+              <div class="service-option-card" data-service="electrical" id="optElectrical">
+                <i class="fas fa-bolt"></i>
+                <span data-i18n="services.electrical.title">Electrical</span>
+              </div>
+              <div class="service-option-card" data-service="renovation" id="optRenovation">
+                <i class="fas fa-hammer"></i>
+                <span data-i18n="services.renovation.title">Renovation</span>
+              </div>
+              <div class="service-option-card" data-service="handyman" id="optHandyman">
+                <i class="fas fa-screwdriver"></i>
+                <span data-i18n="services.handyman.title">Fixes & Drilling</span>
+              </div>
+              <div class="service-option-card" data-service="tiling" id="optTiling">
+                <i class="fas fa-th-large"></i>
+                <span data-i18n="services.tiling.title">Tiling</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group" id="scopeContainer">
+            <label class="form-label" for="serviceScope" data-i18n="quote.step2">2. Specify Scope & Details</label>
+            <select class="form-control" id="serviceScope">
+              <!-- Dynamically populated via JS -->
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="propType" data-i18n="quote.propertyType">Property Type</label>
+            <select class="form-control" id="propType">
+              <option value="landed" data-i18n="quote.propertyOptions.landed">Landed House (Terrace / Semi-D / Bungalow)</option>
+              <option value="apartment" data-i18n="quote.propertyOptions.apartment">Apartment / Condo / Flat</option>
+              <option value="office" data-i18n="quote.propertyOptions.office">Office / Shop Lot</option>
+            </select>
+          </div>
+
+          <div class="form-group" id="qualityContainer">
+            <label class="form-label" for="paintQuality" data-i18n="quote.paintQuality">Paint Quality Grade</label>
+            <select class="form-control" id="paintQuality">
+              <option value="standard" data-i18n="quote.paintQualityOptions.standard">Standard Quality Interior Paint</option>
+              <option value="premium" data-i18n="quote.paintQualityOptions.premium">Premium Washable / Weather Shield Paint (Nippon / Dulux)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Result & WhatsApp Direct Booking Form Panel -->
+        <div class="quote-result-card">
+          <div>
+            <span style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8;" data-i18n="quote.step3">3. Your Estimated Quote</span>
+            <div class="quote-amount" id="estimatedPriceOutput">RM 350 - RM 600</div>
+            <p class="quote-disclaimer" data-i18n="quote.disclaimer">*Final price may vary based on actual on-site inspection. Material options can be customized.</p>
+          </div>
+
+          <!-- Customer Form details prefilled into WhatsApp -->
+          <div style="margin-top: 1rem;">
+            <div class="form-group">
+              <input type="text" class="form-control" id="formName" data-i18n="quote.formName" placeholder="Your Full Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="formLocation" data-i18n="quote.formLocation" placeholder="Location in Johor (e.g., Skudai, JB, Mount Austin)">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="formDate" data-i18n="quote.formDate" placeholder="Preferred Date / Urgency">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="formNotes" data-i18n="quote.formNotes" placeholder="Additional Requirements or Notes">
+            </div>
+
+            <button class="btn-whatsapp-hero" style="width: 100%; border: none; font-size: 1rem; cursor: pointer;" id="sendWhatsappBtn">
+              <i class="fab fa-whatsapp"></i>
+              <span data-i18n="quote.sendWhatsappBtn">Send Quote & Book Appointment via WhatsApp</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Showcase Section -->
+  <section class="section" id="showcase">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="gallery.title" id="galleryTitle">Our Work Showcase</h2>
+      <p class="section-subtitle" data-i18n="gallery.subtitle" id="gallerySubtitle">
+        Take a look at recent completed painting, handyman, and tiling projects in Johor.
+      </p>
+    </div>
+
+    <div class="gallery-filters">
+      <button class="filter-btn active" data-filter="all" data-i18n="gallery.all" id="btnFilterAll">All Projects</button>
+      <button class="filter-btn" data-filter="painting" data-i18n="gallery.painting" id="btnFilterPainting">Painting</button>
+      <button class="filter-btn" data-filter="plumbing" data-i18n="gallery.plumbing" id="btnFilterPlumbing">Plumbing</button>
+      <button class="filter-btn" data-filter="electrical" data-i18n="gallery.electrical" id="btnFilterElectrical">Electrical</button>
+      <button class="filter-btn" data-filter="renovation" data-i18n="gallery.renovation" id="btnFilterRenovation">Renovation</button>
+      <button class="filter-btn" data-filter="tiling" data-i18n="gallery.tiling" id="btnFilterTiling">Tiling</button>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item" data-category="painting">
+        <img src="assets/images/hero.png" alt="Living Room Wall Painting Skudai">
+        <div class="gallery-overlay">
+          <h4>Modern Living Room Repainting</h4>
+          <p>Skudai, Johor Bahru</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="painting">
+        <img src="assets/images/painting.png" alt="Interior Wall Coating Mount Austin">
+        <div class="gallery-overlay">
+          <h4>Dulux WeatherShield Wall Finish</h4>
+          <p>Mount Austin, Johor</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="plumbing">
+        <img src="assets/images/plumbing.png" alt="Plumbing Pipe & Faucet Repair">
+        <div class="gallery-overlay">
+          <h4>Kitchen Sink Pipe & Tap Replacement</h4>
+          <p>Taman Molek, JB</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="electrical">
+        <img src="assets/images/electrical.png" alt="LED Ceiling Light Setup">
+        <div class="gallery-overlay">
+          <h4>LED Downlight & Fan Fitting</h4>
+          <p>Iskandar Puteri, Johor</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="renovation">
+        <img src="assets/images/renovation.png" alt="Plaster Ceiling Feature Wall">
+        <div class="gallery-overlay">
+          <h4>Plaster Ceiling & Partition Wall</h4>
+          <p>Kulai, Johor</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="tiling">
+        <img src="assets/images/tiling.png" alt="Ceramic Tile Floor Laying">
+        <div class="gallery-overlay">
+          <h4>Porcelain Floor Tiling & Grouting</h4>
+          <p>Pasir Gudang, Johor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="section" id="why-us" style="background: #ffffff;">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="whyUs.title" id="whyUsTitle">Why Choose Chandiran Manickam?</h2>
+      <p class="section-subtitle" data-i18n="whyUs.subtitle" id="whyUsSubtitle">
+        Your trusted local handyman and painting specialist delivering unmatched workmanship across Johor.
+      </p>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-award"></i></div>
+        <h3 data-i18n="whyUs.card1Title">10+ Years Local Expertise</h3>
+        <p data-i18n="whyUs.card1Desc">Deep experience servicing residential landed homes, condos, and shops throughout Johor Bahru and neighboring districts.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+        <h3 data-i18n="whyUs.card2Title">Transparent & Honest Pricing</h3>
+        <p data-i18n="whyUs.card2Desc">No hidden fees. You get clear upfront quotes before work starts, with budget options suited for every client.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-broom"></i></div>
+        <h3 data-i18n="whyUs.card3Title">Punctual & Clean Workmanship</h3>
+        <p data-i18n="whyUs.card3Desc">We respect your home. Floors and furniture are carefully covered, and we leave your property spotlessly clean.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon"><i class="fab fa-whatsapp"></i></div>
+        <h3 data-i18n="whyUs.card4Title">Direct WhatsApp Booking</h3>
+        <p data-i18n="whyUs.card4Desc">Direct communication with Chandiran himself. Fast response time for inquiries, quotes, and emergency repairs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Johor Service Area Coverage Section -->
+  <section class="coverage-section" id="coverage">
+    <div class="coverage-container">
+      <h2 style="font-size: 2rem; color: #ffffff;" data-i18n="coverage.title">Service Coverage in Johor</h2>
+      <p style="color: #94a3b8; font-size: 1.05rem;" data-i18n="coverage.subtitle">We promptly cover major areas across Johor State:</p>
+      <div class="coverage-tags">
+        <span class="coverage-tag"><i class="fas fa-map-marker-alt"></i> Johor Bahru (JB City)</span>
+        <span class="coverage-tag"><i class="fas fa-map-marker-alt"></i> Skudai & Tampoi</span>
+        <span class="coverage-tag"><i class="fas fa-map-marker-alt"></i> Iskandar Puteri & Medini</span>
+        <span class="coverage-tag"><i class="fas fa-map-marker-alt"></i> Mount Austin & Tebrau</span>
+        <span class="coverage-tag"><i class="fas fa-map-marker-alt"></i> Pasir Gudang & Masai</span>
+        <span class="coverage-tag"><i class="fas fa-map-marker-alt"></i> Kulai & Senai</span>
+        <span class="coverage-tag"><i class="fas fa-map-marker-alt"></i> Batu Pahat & Pontian</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Testimonials Section -->
+  <section class="section" id="reviews">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="reviews.title" id="reviewsTitle">What Our Customers Say</h2>
+      <p class="section-subtitle" data-i18n="reviews.subtitle" id="reviewsSubtitle">
+        Read honest feedback from satisfied homeowners and tenants across Johor.
+      </p>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div>
+          <div class="stars">★★★★★</div>
+          <p class="review-text" data-i18n="reviews.r1">"Chandiran repainted my 2-storey terrace house in Skudai. Super neat work, neat masking, and completed ahead of schedule! Highly recommended."</p>
+        </div>
+        <div class="author-info">
+          <h4 data-i18n="reviews.r1Author">Kavitha R., Skudai</h4>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div>
+          <div class="stars">★★★★★</div>
+          <p class="review-text" data-i18n="reviews.r2">"Called Chandiran for ceiling fan installation and plumbing fix in Mount Austin. Fair price and very polite service."</p>
+        </div>
+        <div class="author-info">
+          <h4 data-i18n="reviews.r2Author">Wong S.H., Mount Austin</h4>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div>
+          <div class="stars">★★★★★</div>
+          <p class="review-text" data-i18n="reviews.r3">"Kerja cat dan baiki kabinet dapur sangat kemas. Harga berpatutan dan boleh bincang melalui WhatsApp. Terbaik!"</p>
+        </div>
+        <div class="author-info">
+          <h4 data-i18n="reviews.r3Author">Ahmad Zaki, Johor Bahru</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section" id="faq" style="background: #f1f5f9;">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="faq.title" id="faqTitle">Frequently Asked Questions</h2>
+    </div>
+
+    <div class="faq-container">
+      <div class="faq-item active">
+        <div class="faq-question">
+          <span data-i18n="faq.q1">Is an appointment via WhatsApp required?</span>
+          <i class="fas fa-chevron-down faq-toggle-icon"></i>
+        </div>
+        <div class="faq-answer">
+          <p data-i18n="faq.a1">Yes, WhatsApp appointment booking (+60 0179052183) is required to ensure we schedule a dedicated time slot for your site visit or service.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span data-i18n="faq.q2">Do you supply the paints and materials?</span>
+          <i class="fas fa-chevron-down faq-toggle-icon"></i>
+        </div>
+        <div class="faq-answer">
+          <p data-i18n="faq.a2">We can provide high-quality paints (such as Nippon Paint or Dulux) and repair materials, or we can work with materials you have already purchased.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span data-i18n="faq.q3">Which areas in Johor do you cover?</span>
+          <i class="fas fa-chevron-down faq-toggle-icon"></i>
+        </div>
+        <div class="faq-answer">
+          <p data-i18n="faq.a3">We serve Johor Bahru, Skudai, Iskandar Puteri, Mount Austin, Masai, Pasir Gudang, Kulai, Senai, and surrounding Johor regions.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span data-i18n="faq.q4">How long does a painting or repair job take?</span>
+          <i class="fas fa-chevron-down faq-toggle-icon"></i>
+        </div>
+        <div class="faq-answer">
+          <p data-i18n="faq.a4">Single room painting or minor plumbing/drilling takes 1 day. Full house painting usually takes 2 to 4 days depending on size.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer & Contact Section -->
+  <footer id="contact">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h2 data-i18n="footer.about">Chandiran Painter & Handyman Services Johor</h2>
+        <p data-i18n="footer.desc">
+          Domestic professional painting, plumbing, electrical, renovation, drilling, cupboard fix, and tiling specialist.
+        </p>
+      </div>
+
+      <div class="footer-contact">
+        <h3 data-i18n="footer.contactDetails">Contact Details:</h3>
+        <p><i class="fas fa-user"></i> <span data-i18n="footer.name">Chandiran Manickam</span></p>
+        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/60179052183?text=Hello%20Chandiran" target="_blank" data-i18n="footer.phone">+60 0179052183</a></p>
+        <p style="color: var(--accent-gold); font-size: 0.85rem;" data-i18n="footer.whatsappNotice">(WhatsApp appointment booking required)</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul style="display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem;">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#calculator">Instant Quote</a></li>
+          <li><a href="#showcase">Gallery</a></li>
+          <li><a href="#reviews">Testimonials</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Chandiran Works Johor. <span data-i18n="footer.rights">All Rights Reserved.</span></p>
+    </div>
+  </footer>
+
+  <!-- App Scripts -->
+  <script src="js/translations.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

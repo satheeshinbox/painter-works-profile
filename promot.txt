@@ -1,0 +1,28 @@
+title: create a website for domestic professional painters, we are based in Johor. 
+
+body:
+ - House painting
+ - plumbing
+ - electrical works
+ - small renovation works 
+ - wall, sink, cubboard fixes, drilling works
+ - tiling works
+ 
+ professional contact details :
+ name: chandiran manickam
+ mobile number: +60 0179052183 (whatsapp appointment booking required)
+ 
+features:
+ - for each service mentioned in body should be able to create a quote
+
+create this website content in malay, english and tamil. 
+
+content should be related to Johor Bahru and surrounding areas, professional and appealing to the customers.
+
+note: single html page works will be great, the single page should contain all the features mentioned above.
+
+please use modern html templates, professional, with good ui/ux.
+
+use tailwind for styling
+
+include mobile responsive design
